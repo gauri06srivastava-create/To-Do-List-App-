@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #2F6F5F;
+    font-family: sans-serif;
+}
+.container {
+    color: #72bc80;
+    text-align: center;
+    font-size: 50px;
+    margin: 100px auto;
+    max-width: 600px;
+    padding-bottom: 50px;
+    min-height: 600px;
+    box-shadow: 2px 4px 25px 4px rgba(1,28,18,0.4);
+    border-radius: 10px;
+    background: #0a4e3f;
+}
+input[type="text"] {
+    color: black;
+    font-size: 20px;
+    width: 70%;
+    height: 45px;
+}
+.addbtn {
+    width: 50px;
+    height: 48px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#tasklist {
+    padding: 0;
+    background: #0a4e3f;
+    margin: 20px auto;  
+    width: 100%;        
+    max-width: 600px; 
+    margin-top: 30px; 
+}
+#tasklist li {
+    background: #abf3b7;
+    color:rgb(13, 86, 26);
+    padding: 13px;
+    margin: 10px auto;  
+    font-size: 20px;
+    width: 80%;        
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(14, 100, 78, 0.2);
+    text-align: left;
+}
+#tasklist li::marker {
+    color: #abf3b7;
+}
+#tasklist li span{
+    float: right;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#tasklist li span:hover{
+    color: red;
+}
